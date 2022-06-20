@@ -70,7 +70,7 @@ function showSearchModal() {
             <button class="button secondary-button">Rafraichir</button>
           </div>
         </div>
-        <div style="display: flex; flex: 1; gap: 1.5rem; overflow: auto">
+        <div style="display: flex; flex: 1; gap: 1rem; overflow: auto">
           <Card
             style="
               width: 18rem;
@@ -198,7 +198,7 @@ main {
 }
 
 .container {
-  padding: 1rem 1.5rem;
+  padding: 1rem;
   display: flex;
   flex: 1;
   overflow: auto;
@@ -245,6 +245,7 @@ main {
 .active-tab {
   box-sizing: border-box;
   box-shadow: inset 0 -2px 0 #47d16c;
+  font-weight: 500;
 }
 
 .group-box {
